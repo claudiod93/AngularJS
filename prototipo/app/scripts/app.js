@@ -32,6 +32,16 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/articulos', {
+        templateUrl: 'views/articulos.html',
+        controller: 'ArticulosCtrl',
+        controllerAs: 'articulos'
+      })
+      .when('/galeria', {
+        templateUrl: 'views/galeria.html',
+        controller: 'GaleriaCtrl',
+        controllerAs: 'galeria'
+      })
       .otherwise({
         redirectTo: '/'
       });

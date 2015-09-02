@@ -10,3 +10,8 @@ Run `grunt` for building and `grunt serve` for preview.
 ## Testing
 
 Running `grunt test` will run the unit tests with karma.
+
+
+Commnad
+
+yo angular: route views(for example galeria, aritulo)
