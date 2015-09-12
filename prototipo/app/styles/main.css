@@ -120,6 +120,6 @@ body {
   border: thin solid #090;
 }
 
-.ng-valid{
+.ng-invalid{
   border: thin solid #990000;
 }
